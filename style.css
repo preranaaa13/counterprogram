@@ -1,0 +1,60 @@
+
+ /* designing the number displayed */
+#num{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    text-align: center;
+    font-size: 200px;
+    margin-left: 200px;
+}
+
+ /* design the decrease button */
+#d{
+    width: 300px;
+    border: none;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+/* design the reset button */
+#re{
+    width: 200px;
+    border: none;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 150px;
+}
+
+/* design the increase button */
+#in{
+    width: 300px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+/* positioning the buttons */
+button{
+    display: grid;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+/* creating a layout */
+div{
+    border-radius: 20px;
+    width: 510px;
+    height: 500px;
+    background-color:paleturquoise;
+    margin-left: 370px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+body{
+    background-color:skyblue;
+}
+
+
