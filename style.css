@@ -15,6 +15,71 @@
     background-color: cornflowerblue;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
+    cursor: pointer;
+}
+
+/* design the reset button */
+#re{
+    width: 200px;
+    border: none;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+/* design the increase button */
+#in{
+    width: 300px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* positioning the buttons */
+button{
+    display: grid;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+/* creating a layout */
+div{
+    border-radius: 20px;
+    width: 510px;
+    height: 500px;
+    background-color:paleturquoise;
+    margin-left: 370px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+body{
+    background-color:skyblue;
+}
+
+/* media quaries for mobile screens */
+
+@media (max-width:600px){
+    /* designing the number displayed */
+#num{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    text-align: center;
+    font-size: 200px;
+    margin-left: 200px;
+}
+
+ /* design the decrease button */
+#d{
+    width: 300px;
+    border: none;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
 }
 
 /* design the reset button */
@@ -45,16 +110,207 @@ button{
 
 /* creating a layout */
 div{
+    margin-left: 0px;
+    margin-top: 100px;
+    background-color: none;
+}
+
+}
+
+/* media quearies for tablet screens */
+@media (max-width:900px) and (min-width:600px) {
+     /* designing the number displayed */
+#num{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    text-align: center;
+    font-size: 200px;
+    margin-left: 200px;
+}
+
+ /* design the decrease button */
+#d{
+    width: 300px;
+    border: none;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* design the reset button */
+#re{
+    width: 200px;
+    border: none;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+/* design the increase button */
+#in{
+    width: 300px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* positioning the buttons */
+button{
+    display: grid;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+/* creating a layout */
+div{
     border-radius: 20px;
     width: 510px;
     height: 500px;
     background-color:paleturquoise;
-    margin-left: 370px;
-    margin-top: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
     border: 2px solid black;
 }
 body{
     background-color:skyblue;
 }
+
+}
+
+/* media quaries for desktop/laptop view */
+
+@media (min-width:600px) and (max-width:900){
+    /* designing the number displayed */
+#num{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    text-align: center;
+    font-size: 200px;
+    margin-left: 200px;
+}
+
+ /* design the decrease button */
+#d{
+    width: 300px;
+    border: none;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* design the reset button */
+#re{
+    width: 200px;
+    border: none;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+/* design the increase button */
+#in{
+    width: 300px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* positioning the buttons */
+button{
+    display: grid;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+/* creating a layout */
+div{
+    border-radius: 20px;
+    width: 510px;
+    height: 500px;
+    background-color:paleturquoise;
+    margin-left: 800px;
+    margin-top: 100px;
+    border: 2px solid black;
+}
+body{
+    background-color:skyblue;
+}
+
+}
+
+@media (min-width:900px) {
+    /* designing the number displayed */
+#num{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    text-align: center;
+    font-size: 200px;
+    margin-left: 200px;
+}
+
+ /* design the decrease button */
+#d{
+    width: 300px;
+    border: none;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* design the reset button */
+#re{
+    width: 200px;
+    border: none;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+/* design the increase button */
+#in{
+    width: 300px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+/* positioning the buttons */
+button{
+    display: grid;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+/* creating a layout */
+div{
+    border-radius: 20px;
+    width: 510px;
+    height: 500px;
+    background-color:paleturquoise;
+    margin-left: 670px;
+    margin-top: 150px;
+    border: 2px solid black;
+}
+body{
+    background-color:skyblue;
+}
+
+}
+
 
 
